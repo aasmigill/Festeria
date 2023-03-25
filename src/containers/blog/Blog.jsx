@@ -10,7 +10,7 @@ const Blog = () => (
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={blog01} date="Jan 18, 2023" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={blog01} date="Jan 18, 2023" text="From Idea to Reality: How Festeria Can Help You Launch Your Startup" />
       </div>
       <div className="gpt3__blog-container_groupB">
         <Article imgUrl={blog02} date="Jan 05, 2023" text="Festeria: Connect, Create, and Celebrate!" />

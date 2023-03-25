@@ -1,6 +1,6 @@
+/* eslint-disable no-trailing-spaces */
 import React from 'react';
-
-import { Footer, Blog, Highlight, Header } from './containers';
+import { Footer, Blog, Possibility, Features, Highlight, Header } from './containers';
 // import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { Navbar } from './components';
 // import { CTA, Brand, Navbar } from './components';
@@ -15,9 +15,9 @@ const App = () => (
     </div>
     {/* <Brand /> */}
     <Highlight />
-    {/* <Features /> */}
-    {/* <Possibility />
-    <CTA /> */}
+    <Possibility /> 
+    <Features />
+    {/* <CTA />  */}
     <Blog />
     <Footer />
   </div>

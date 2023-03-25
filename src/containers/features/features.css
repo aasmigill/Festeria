@@ -17,10 +17,23 @@
 }
 
 .gpt3__features-heading h1 {
-    font-size: 34px;
+    /* font-size: 34px;
     line-height: 45px;
     font-weight: 800;
+    font-family: var(--font-family); */
+    font-size: 67px;
+    line-height: 75px;
     font-family: var(--font-family);
+    font-weight: 800;
+
+    width: 100%;
+    text-align: left;
+   
+
+    margin-bottom: 5rem;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .gpt3__features-heading p {
